@@ -1,4 +1,10 @@
 package main
+
+import ("fmt"
+	"unicode"
+	"strings"
+)
+
 func RemoveEven(sl []int) []int {
 	var ans []int
 	for _, v := range sl {
