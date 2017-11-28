@@ -16,7 +16,7 @@ func RemoveEven(sl []int) []int {
 }
 
 func PowerGenerator(a int) func() int {
-	sum := a
+	sum := 1
 	return func() int {
 		sum *= a
 		return sum
